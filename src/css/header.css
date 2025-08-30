@@ -5,9 +5,24 @@
 .logo {
     width: 84px;
     height: 36px;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-auto-rows: auto;
+    gap: 0;
+}
+
+.logo svg:nth-child(n+7) {
+    grid-column: span 2;
+}
+
+.logo svg {
+    display: block;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-icon,
 .burger-btn {
     fill: #0b0803;
 }
+
