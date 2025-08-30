@@ -1,0 +1,13 @@
+.nav-container {
+
+}
+
+.logo {
+    width: 84px;
+    height: 36px;
+}
+
+.nav-icon,
+.burger-btn {
+    fill: #0b0803;
+}
